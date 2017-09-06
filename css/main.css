@@ -1,9 +1,10 @@
 /*neutral*/
+
 * {
-	font-family: 'karla', sans-serif;
+	font-family: sans-serif;
 }.footer,
 .header {
-	background: linear-gradient(135deg, rgba(255,223,208,1) 0%,rgba(255,200,186,1) 100%); 
+	background: #877B91;
 }
 .ctas-button {
 	color: #444;
@@ -11,7 +12,7 @@
 .ctas .twocta .ctas-button-2 {
 	border: 1px solid #333;
 	color: #333 !important;
-}@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+}
 *,
 *:before,
 *:after {
@@ -23,6 +24,7 @@ body {
 }
 /*text*/
 .heading {
+	font-family: 'Marcellus SC', sans-serif;
   font-weight: 100;
   font-size: 50px;
   line-height: 68px;
@@ -159,6 +161,7 @@ p.paragraph {
 }.header {
 	padding: 20px 0 90px 0;
 	overflow: hidden;
+	color:white;
 }
 .header .heading {
 	margin: 120px 0 0 0;
@@ -275,6 +278,7 @@ p.paragraph {
 	}
 }.footer {
 	padding: 45px 0;
+	color:white;
 }
 .footer .nav-link {
 	display: inline-block;
@@ -349,4 +353,22 @@ p.paragraph {
   	width: 100%;
   	margin-top: 30px;
   }
+}
+
+.picture-bubble {
+	width: 200px;
+	height: 200px;
+	background-image: url("../img/portrait.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	position: absolute;
+	left: calc(50% - 100px);
+	top: -150px;
+}
+.picture-container {
+	position: relative;
+	margin: 200px 0 100px;
+}
+button {
+	cursor:pointer;
 }
