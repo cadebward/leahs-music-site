@@ -2,10 +2,17 @@
 
 * {
 	font-family: sans-serif;
-}.footer,
-.header {
-	background: #877B91;
 }
+
+.footer,
+.header {
+	background: #9aa580;
+	background-image: url(../img/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
 .ctas-button {
 	color: #444;
 }
@@ -371,4 +378,24 @@ p.paragraph {
 }
 button {
 	cursor:pointer;
+}
+
+.review {
+	margin-top: 20px;
+}
+
+.review .quote {
+	font-size: 3em;
+	font-family: cursive;
+	padding-right: 15px;
+}
+
+.review .author {
+	font-weight: bold;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+.review + .review {
+	margin-top: 50px;
 }
