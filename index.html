@@ -78,7 +78,7 @@
           Leah specializes in musical genres such as classical, opera, musical
           theatre, and choral music. She is also proficient in music theory. She
           has 10 years of private vocal training and has been teaching private
-          voice lessons for 6 years.
+          voice lessons for <span id="experience-year">6</span> years.
         </p>
       </div>
     </div>
@@ -194,6 +194,7 @@
   </script>
   <script>
     document.getElementById('copy').innerHTML = '© ' + new Date().getFullYear() + " Leah's Music Studio"
+    document.getElementById('experience-year').innerHTML = new Date().getFullYear() - 2014
   </script>
 </body>
 
